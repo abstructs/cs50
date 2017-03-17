@@ -1,5 +1,3 @@
-# export API_KEY=PknoAWn7okVjLl19c6OVB2lMd
-# export API_SECRET=tBcIzEUdYuhwu0FWocMkAW8Y8hqUKf64D3fiSIhHRr51J7TkW8
 import html
 import os
 import plotly
