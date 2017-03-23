@@ -56,6 +56,7 @@ def get_user_timeline(screen_name, count=200):
     try:
         twitter = Twython(os.environ.get("API_KEY"), os.environ.get("API_SECRET"))
         user = twitter.lookup_user(screen_name=screen_name)
+        print(twitter)
         if user[0]["protected"]:
             return None
         tweets = twitter.get_user_timeline(screen_name=screen_name, count=count)
